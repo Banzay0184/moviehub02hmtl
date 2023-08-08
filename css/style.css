@@ -1,0 +1,376 @@
+#top {
+    padding-bottom: 120px;
+}
+
+.menu {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #232323;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid white;
+    z-index: 100;
+}
+
+.menu-list {
+    font-size: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-list img {
+    margin-bottom: 4px;
+    width: 35px;
+}
+
+.menu-list-active {
+    filter: invert(60%) sepia(90%) saturate(1027%) hue-rotate(184deg) brightness(102%) contrast(96%);
+    font-size: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 900;
+}
+
+/*Home*/
+
+.swiper-wrapper {
+    width: 100% !important;
+    height: 50% !important;
+}
+
+.wapp {
+    position: relative;
+}
+
+.wapp img {
+    width: 100vw;
+    height: 300px;
+    object-fit: cover;
+}
+
+.top-movie {
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+.wapp-text {
+    padding: 4px 4px 4px 20px;
+    background: rgb(18, 138, 255);
+    background: radial-gradient(circle, rgba(18, 138, 255, 1) 20%, rgba(148, 187, 233, 0) 100%);
+    position: absolute;
+    bottom: 20px;
+
+    font-size: 32px;
+    color: white;
+    font-weight: 900;
+}
+
+.movie-text {
+    font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    background: rgb(18, 138, 255);
+    background: radial-gradient(circle, rgba(18, 138, 255, 1) -150%, rgba(148, 187, 233, 0) 100%);
+}
+
+.top-movie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/*Catigoria*/
+
+.cati-text {
+    font-size: 32px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: 900;
+    width: 200px;
+    text-transform: uppercase;
+    background: rgb(18, 138, 255);
+    background: radial-gradient(circle, rgba(18, 138, 255, 1) -150%, rgba(148, 187, 233, 0) 100%);
+}
+
+.cati-movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cati-movie {
+    width: 30%;
+    height: 40%;
+}
+
+.cati-movie-top {
+    width: 30%;
+    height: 40%;
+    margin-bottom: 12px;
+}
+
+.cati-movie h1 {
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.cati-movie-img {
+    margin-bottom: 12px;
+    border-radius: 16px 12px 12px 4px;
+    clip-path: polygon(31% 0, 87% 0, 100% 11%, 100% 90%, 89% 100%, 32% 100%, 0 100%, 0 11%, 20% 10%);
+}
+
+.star {
+    display: flex;
+    gap: 2px;
+}
+
+.star img {
+    width: 14px;
+}
+
+.star-count {
+    font-size: 14px;
+}
+
+.cati-cati {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.cati-btn {
+    color: white;
+    padding: 8px;
+    border: 1px solid #128aff;
+}
+
+.cati-btn:focus {
+    background-color: #128aff;
+    border: 1px solid #128aff;
+}
+
+.cati-search {
+    width: 100%;
+    border: 1px solid #128aff;
+    padding: 4px;
+    margin-bottom: 24px;
+}
+
+/*Slad*/
+
+.slider {
+    width: 100%;
+    position: relative;
+    /*overflow: hidden;*/
+}
+
+.line {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    left: 0;
+    transition: all ease 1s;
+}
+
+/*MovieDesc*/
+
+.container {
+    padding-top: 20px;
+}
+
+
+.game-descr {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.back {
+    padding: 10px;
+    width: 100%;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 9%, rgba(9, 9, 121, 0.3071822478991597) 35%, rgba(0, 212, 255, 0) 100%);
+    position: fixed;
+    top: 0;
+}
+
+object {
+    width: 100%;
+    height: 100%;
+
+}
+
+.game-descr-text {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.infos-box {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.info-box {
+    background-color: #1e1e1e;
+    border: 1px solid white;
+    color: white;
+    padding: 4px 12px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+
+.game-descr-box h1 {
+    font-weight: 700;
+    color: #128aff;
+    margin-bottom: 10px;
+}
+
+.game-descr-box {
+    padding: 20px 0;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+}
+
+.game-descr-info {
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 0.5px solid white;
+}
+
+
+.game-descr-info h1 {
+    font-weight: 700;
+    color: #128aff;
+    margin-bottom: 10px;
+}
+
+.game-descr-info p {
+    font-weight: 200;
+}
+
+.game-descr-info span {
+    font-weight: 700;
+}
+
+.backsvg {
+    padding: 4px;
+    width: 28px;
+    border-radius: 100%;
+    background-color: darkgray;
+}
+
+.download-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+.download-box2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.download-box2 img {
+    width: 24px;
+}
+
+.download-box3 {
+    gap: 8px;
+    display: flex;
+}
+
+.download-box3 img {
+    width: 28px;
+}
+
+.btnactive {
+    filter: invert(43%) sepia(62%) saturate(4101%) hue-rotate(196deg) brightness(105%) contrast(103%);
+}
+
+
+.red {
+    filter: invert(22%) sepia(94%) saturate(7493%) hue-rotate(358deg) brightness(109%) contrast(115%);
+}
+
+.blu {
+    filter: invert(43%) sepia(62%) saturate(4101%) hue-rotate(196deg) brightness(105%) contrast(103%);
+
+}
+
+
+.movie-list {
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    display: flex;
+    padding: 6px;
+}
+
+.movie-list-box {
+    display: flex;
+}
+
+.movie-list-img {
+    width: 60px;
+    border-radius: 8px;
+}
+
+.movie-texts {
+    padding: 10px;
+}
+
+.movie-list-title {
+    padding: 2px 0;
+    color: darkgray;
+    font-size: 12px;
+}
+
+.star-list {
+    height: 10%;
+    border-radius: 8px;
+    padding: 4px;
+    display: flex;
+    gap: 2px;
+}
+
+.star-list img {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.save-box {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.btnDel {
+    width: 100%;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: #128aff;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
